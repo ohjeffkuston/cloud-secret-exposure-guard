@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "path": "deploy/app.env",
+      "content": "APP_ENV=staging\nAWS_SECRET_ACCESS_KEY=not-a-real-secret-value\nLOG_LEVEL=INFO"
+    },
+    {
+      "path": "deploy/database.conf",
+      "content": "host=db.internal\npassword=unsafe-demo-value"
+    },
+    {
+      "path": "deploy/template.env",
+      "content": "API_TOKEN=${SECRET}"
+    }
+  ]
+}
+
